@@ -1,0 +1,59 @@
+@media screen and (min-width: 992px) {
+    .paddingrow {
+        padding-left: 60px;
+    }
+
+    .list {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .paddingrow {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .paddingrow {
+        padding-left: 60px;
+    }
+
+    .list {
+        width: 94%;
+    }
+}
+
+
+.list {
+    padding: 10px 20px;
+    background-color: rgb(200, 232, 232);
+    margin-bottom: 10px;
+    /* margin: 5px auto; */
+}
+
+.list label {
+    margin-right: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.btn {
+    height: 40px;
+    color: white !important;
+}
+
+.nav-link {
+
+    color: black;
+    margin: 0 10px;
+}
+
+.nav-pills .nav-link.active {
+    color: #0d6efd;
+    background-color: transparent;
+    border-bottom: 1px solid #0d6efd;
+    border-radius: 0px;
+}
